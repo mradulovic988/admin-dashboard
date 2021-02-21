@@ -117,5 +117,7 @@
 </nav>
 
 @yield('content')
+@yield('dashboard_sidebar')
+@yield('dashboard_footer')
 </body>
 </html>
