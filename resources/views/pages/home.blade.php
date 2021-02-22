@@ -702,3 +702,10 @@
         </div>
     </footer>
 @endsection
+
+@auth
+
+    @yield('dashboard_sidebar')
+    @yield('dashboard_footer')
+
+@endauth

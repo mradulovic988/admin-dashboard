@@ -14,4 +14,8 @@ class DashboardController extends Controller
     public function index() {
         return view('admin.pages.dashboard');
     }
+
+    public function settings() {
+        return view('admin.pages.settings');
+    }
 }
