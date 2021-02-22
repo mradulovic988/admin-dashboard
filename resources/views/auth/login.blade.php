@@ -33,6 +33,13 @@
                     </div>
                 </div>
 
+                <div class="mb-4">
+                    <div class="flex item-center">
+                        <input type="checkbox" name="remember" id="remember" class="mr-2">
+                        <label for="remember">Remember me</label>
+                    </div>
+                </div>
+
                 <button type="submit" class="block text-center text-white bg-gray-800 p-3 duration-300 rounded-sm hover:bg-black w-full">Login</button>
             </form>
 
