@@ -81,3 +81,9 @@
         </div>
     </div>
 @endsection
+@auth
+
+    @yield('dashboard_sidebar')
+    @yield('dashboard_footer')
+
+@endauth
