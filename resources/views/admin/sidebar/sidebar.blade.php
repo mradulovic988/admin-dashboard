@@ -140,7 +140,7 @@
             <ul class="md:flex-col md:min-w-full flex flex-col list-none">
                 <li class="items-center">
                     <a
-                        href="./dashboard.html"
+                        href="{{ route('dashboard') }}"
                         class="text-xs uppercase py-3 font-bold block text-indigo-600 hover:text-pink-600"
                     >
                         <i class="fas fa-tv mr-2 text-sm opacity-75"></i>
@@ -155,6 +155,16 @@
                     >
                         <i class="fas fa-tools mr-2 text-sm text-gray-400"></i>
                         Settings
+                    </a>
+                </li>
+
+                <li class="items-center">
+                    <a
+                        href="{{ route('posts') }}"
+                        class="text-xs uppercase py-3 font-bold block text-gray-800 hover:text-gray-600"
+                    >
+                        <i class="fas fa-tools mr-2 text-sm text-gray-400"></i>
+                        Posts
                     </a>
                 </li>
 
