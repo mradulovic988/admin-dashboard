@@ -20,6 +20,7 @@ Route::post('/register', [RegisterController::class, 'store']);
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 Route::get('/settings', [DashboardController::class, 'settings'])->name('settings');
+Route::post('/settings', [DashboardController::class, 'settings_store']);
 
 Route::get('/posts', [PostController::class, 'index'])->name('posts');
 Route::post('/posts', [PostController::class, 'store']);
